@@ -1,0 +1,283 @@
+/* * jQuery UI CSS Framework 1.8.15 * * Copyright 2011,AUTHORS.txt (http://jqueryui.com/about) * Dual licensed under the MIT or GPL Version 2 licenses. * http://jquery.org/license * * http://docs.jquery.com/UI/Theming/API */
+/* Interaction Cues----------------------------------*/
+.ui-state-disabled {
+	cursor: default !important;
+}
+/* Overlays */
+.ui-widget-overlay {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+}
+/* * jQuery UI CSS Framework 1.8.15 * * Copyright 2011,AUTHORS.txt (http://jqueryui.com/about) * Dual licensed under the MIT or GPL Version 2 licenses. * http://jquery.org/license * * http://docs.jquery.com/UI/Theming/API * * To view and modify this theme,visit http://jqueryui.com/themeroller/?ffDefault=Trebuchet%20MS,%20Tahoma,%20Verdana,%20Arial,%20sans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=ffffff&bgTextureHeader=12_gloss_wave.png&bgImgOpacityHeader=35&borderColorHeader=00b5c8&fcHeader=000000&iconColorHeader=000000&bgColorContent=ffffff&bgTextureContent=03_highlight_soft.png&bgImgOpacityContent=100&borderColorContent=00b5c8&fcContent=333333&iconColorContent=222222&bgColorDefault=ffffff&bgTextureDefault=02_glass.png&bgImgOpacityDefault=100&borderColorDefault=00b5c8&fcDefault=000000&iconColorDefault=000000&bgColorHover=00b5c8&bgTextureHover=02_glass.png&bgImgOpacityHover=100&borderColorHover=00b5c8&fcHover=ffffff&iconColorHover=000000&bgColorActive=00b5c8&bgTextureActive=02_glass.png&bgImgOpacityActive=65&borderColorActive=00b5c8&fcActive=ffffff&iconColorActive=000000&bgColorHighlight=4187c8&bgTextureHighlight=03_highlight_soft.png&bgImgOpacityHighlight=75&borderColorHighlight=000000&fcHighlight=ffffff&iconColorHighlight=ffffff&bgColorError=b81900&bgTextureError=08_diagonals_thick.png&bgImgOpacityError=18&borderColorError=cd0a0a&fcError=ffffff&iconColorError=ffd27a&bgColorOverlay=666666&bgTextureOverlay=08_diagonals_thick.png&bgImgOpacityOverlay=20&opacityOverlay=50&bgColorShadow=000000&bgTextureShadow=01_flat.png&bgImgOpacityShadow=10&opacityShadow=20&thicknessShadow=5px&offsetTopShadow=-5px&offsetLeftShadow=-5px&cornerRadiusShadow=5px */
+/* Component containers----------------------------------*/
+.ui-widget {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.ui-widget-content {
+	background:none;
+	color:#333333;
+}
+div.datepicker-container .ui-widget-content {
+	border:1px solid #ddd;
+}
+.ui-widget-header {
+	background:none;
+	color:#000000;
+	font-weight:bold;
+}
+.ui-widget-header a {
+	color:#000000;
+}
+div.ui-tabs-panel {
+	border: 1px solid #00b5c8;
+}
+/* Interaction states----------------------------------*/
+.ui-tabs .ui-tabs-nav li.ui-state-processing em {
+	background:url("../img/loading.gif") no-repeat scroll left top transparent;
+	height:14px;
+	left:5px;
+	position:absolute;
+	top:7px;
+	width:14px;
+}
+.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default {
+	font-weight:normal;
+	color:#666;
+	border:1px solid #ddd;
+}
+ul.tab-menu li,.ui-tabs .ui-tabs-nav li.ui-state-default {
+	background:url("../img/common-sprite.png") no-repeat 1px -2483px;
+	border:none;
+}
+.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited {
+	color:#666;
+	text-decoration:none;
+}
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus {
+	color:#00B5C8;
+	border:1px solid #C65399;
+}
+ul.tab-menu li a,.ui-tabs .ui-tabs-nav li.ui-state-default a {
+	background:url("../img/common-sprite.png") no-repeat scroll right -2744px;
+	height:21px;
+	margin:0px 0px 0px 5px;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-hover a,.ui-tabs .ui-tabs-nav li.ui-state-active a {
+	background:url("../img/common-sprite.png") no-repeat scroll right -2861px;
+	color:#fff;
+}
+ul.ui-menu li .ui-state-hover {
+	border:none;
+}
+.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active {
+	font-weight:bold;
+	color:#000;
+	border:1px solid #C65399;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-hover,.ui-tabs .ui-tabs-nav li.ui-state-active {
+	background:url("../img/common-sprite.png") no-repeat 1px -2614px;
+}
+.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited {
+	color:#C65399;
+	text-decoration:none;
+}
+.ui-widget:active {
+	outline: none;
+}
+/* * jQuery UI Accordion 1.8.15 * * Copyright 2011,AUTHORS.txt (http://jqueryui.com/about) * Dual licensed under the MIT or GPL Version 2 licenses. * http://jquery.org/license * * http://docs.jquery.com/UI/Accordion#theming */
+/* IE/Win - Fix animation bug - #4615 */
+.ui-accordion {
+	width:100%;
+}
+.ui-accordion .ui-accordion-header {
+	cursor:pointer;
+	position:relative;
+	margin-top:1px;
+	zoom:1;
+	padding:0px;
+}
+.ui-accordion .ui-accordion-li-fix {
+	display:inline;
+}
+.ui-accordion .ui-accordion-header-active {
+	border-bottom:0 !important;
+}
+.ui-accordion .ui-accordion-header a {
+	display:block;
+	font-size:1em;
+	padding:.5em .5em .5em .7em;
+}
+.ui-accordion-icons .ui-accordion-header a {
+	padding-left:2.2em;
+}
+.ui-accordion .ui-accordion-header .ui-icon {
+	position:absolute;
+	left:.5em;
+	top:50%;
+	margin-top:-8px;
+	height: 14px;
+    width: 12px;
+}
+.ui-accordion .ui-accordion-content {
+	padding:1em 2.2em;
+	border-top:0;
+	margin-top:-2px;
+	position:relative;
+	top:1px;
+	margin-bottom:2px;
+	overflow:auto;
+	display:none;
+	zoom:1;
+	border:1px solid #C65399;
+	border-top:none;
+}
+.ui-accordion .ui-accordion-content-active {
+	display: block;
+}
+/* * jQuery UI Autocomplete 1.8.15 * * Copyright 2011,AUTHORS.txt (http://jqueryui.com/about) * Dual licensed under the MIT or GPL Version 2 licenses. * http://jquery.org/license * * http://docs.jquery.com/UI/Autocomplete#theming */
+.ui-autocomplete {
+	position:absolute;
+	cursor: default;
+}
+/* workarounds */
+* html .ui-autocomplete {
+	width: 1px;
+}
+/* without this,the menu expands to 100% in IE6 */
+/* * jQuery UI Menu 1.8.15 * * Copyright 2010,AUTHORS.txt (http://jqueryui.com/about) * Dual licensed under the MIT or GPL Version 2 licenses. * http://jquery.org/license * * http://docs.jquery.com/UI/Menu#theming */
+.ui-menu {
+	list-style:none;
+	padding:2px;
+	margin:0;
+	display:block;
+	float:left;
+	background:#fff;
+	border-top:none;
+	border:1px solid #ccc;
+	z-index:1000000 !important;
+    padding:0px;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-topright:3px;
+  	-khtml-border-radius-topright:3px;
+  	-o-border-radius-topright:3px;
+}
+.ui-menu .ui-menu {
+	margin-top:-3px;
+}
+.ui-menu .ui-menu-item {
+	padding:0;
+	width:100%;
+}
+.ui-menu .ui-menu-item a {
+	border-bottom:1px solid #DDDDDD;
+}
+.ui-menu .ui-menu-item:hover,.ui-menu  #ui-active-menuitem,.ui-menu .ui-menu-item:hover a {
+    background:#C65399 url(../img/arrow-hover.png) no-repeat 10px 8px;
+    color:#fff;
+}
+.ui-menu #ui-active-menuitem span.address-info,.ui-menu .ui-menu-item:hover a {
+	color:#fff;
+}
+.ui-menu .iteams-title,.ui-menu .iteams-title:hover,.ui-menu li.iteams-title #ui-active-menuitem {
+	background:#ccc;
+	background:url(../img/auto.png) repeat-x left top;
+	font-size:13px;
+	color:#000;
+	font-weight:bold;
+}
+.ui-menu li.iteams-title #ui-active-menuitem{
+    color:#C65399;
+}
+.ui-menu .ui-menu-item a {
+    -moz-border-radius: 0 0 0 0;
+    background: url("../img/auto-arrow.png") no-repeat 10px 8px;
+    border-bottom: 1px solid #DDDDDD;
+    color: #000000;
+    display: block;
+    line-height: 1.5;
+    padding: 4px 4px 4px 20px;
+    text-decoration: none;
+}
+.ui-menu .ui-menu-item:hover a.iteams-title,.ui-menu .ui-menu-item a.iteams-title {
+	font-weight:bold;
+}
+.ui-menu .ui-menu-item span.address-info {
+	color:#8f8f8f;
+	display:block;
+	font-size:11px;
+}
+.ui-menu .ui-menu-item:hover a,.ui-menu .ui-menu-item:hover span.address-info {
+	color:#fff;
+}
+.ui-menu li.iteams-title:hover a{
+    color:#000;
+    font-weight:bold;
+}
+.ui-menu .ui-menu-item a.ui-state-hover,.ui-menu .ui-menu-item a.ui-state-active {
+	font-weight: normal;
+}
+.ui-menu .ui-menu-item a.js-Item,.ui-menu .ui-menu-item a.js-Place,.ui-menu .ui-menu-item a.js-User{
+    padding: 7px 0 5px 30px;
+}
+.ui-menu .ui-menu-item a.js-Place ,.ui-menu li.iteams-title:hover a.js-Place,.ui-menu li.js-Place #ui-active-menuitem{
+    background: url("../img/place.png") no-repeat 10px 10px;
+}
+.ui-menu .ui-menu-item a.js-User ,.ui-menu li.iteams-title:hover a.js-User,.ui-menu li.js-User #ui-active-menuitem{
+    background: url("../img/user1.png") no-repeat 10px 10px;
+}
+.ui-menu .ui-menu-item a.js-Item  ,.ui-menu li.iteams-title:hover a.js-Item,.ui-menu li.js-Item #ui-active-menuitem{
+    background:url("../img/user-sprite.png") no-repeat 7px -6885px;
+}
+/* * jQuery UI Tabs 1.8.15 * * Copyright 2011,AUTHORS.txt (http://jqueryui.com/about) * Dual licensed under the MIT or GPL Version 2 licenses. * http://jquery.org/license * * http://docs.jquery.com/UI/Tabs#theming */
+.ui-tabs {
+	padding:.2em;
+	zoom: 1;
+}
+/* position:relative prevents IE scroll bug (element with position:relative inside container with overflow:auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav {
+	margin:0;
+	padding:0px;
+}
+ul.tab-menu li,.ui-tabs .ui-tabs-nav li {
+	list-style:none;
+	float:left;
+	top:1px;
+	margin:0 .2em 1px 0;
+	border-bottom:0 !important;
+	padding:0;
+	white-space:nowrap;
+	position:relative;
+}
+ul.tab-menu li a,.ui-tabs .ui-tabs-nav li a {
+	float:left;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+	color:#000;
+	padding:8px 7px 0 4px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+	margin-bottom:0;
+	padding-bottom:1px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,.ui-tabs .ui-tabs-nav li.ui-state-disabled a,.ui-tabs .ui-tabs-nav li.ui-state-processing a {
+	cursor:text;
+}
+.ui-tabs .ui-tabs-nav li a,.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+	cursor: pointer;
+}
+/* first selector in group seems obsolete,but required to overcome bug in Opera applying cursor:text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel {
+	display:block;
+	padding:10px;
+	background:#fff;
+	border:1px solid #e2e2e2;
+	margin:-1px 0px 0px 0px;
+}
+.ui-tabs .ui-tabs-hide {
+	display: none !important;
+}

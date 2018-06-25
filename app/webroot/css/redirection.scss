@@ -1,0 +1,138 @@
+/* $Id:redirect.css 187 2011-12-08 23:39:20Z josephine_065at09 $ */
+/* common*/
+.content {
+	background:#fff;
+	color:#545454;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:15px;
+}
+a {
+	color:#c65399;
+	text-decoration:none;
+    &:focus{
+	   outline:none;
+    }
+    &:hover{
+	   color:#63003c;
+    }
+}
+h2 {
+	color:#0a0a0a;
+	font-size:23px;
+	padding:10px;
+	line-height:25px;
+	text-transform:capitalize;
+}
+body {
+	background:#ccc;
+	div.content {
+    	background-color:#ccc;
+    }
+}
+/* ------ openid style loading page -------*/
+div.authorize-page {
+	padding:10px;
+	margin:150px auto;
+	width:600px;
+}
+#header .openid-block {
+	width:725px;
+}
+#main div.openid-block {
+	padding:15px 0 0;
+}
+.openid-container div.authorize-page {
+	margin:150px auto 150px 500px;
+}
+div#colorbox div.authorize-page {
+	margin:10px auto;
+	width:auto;
+}
+#theme{
+    span {
+    	float:left;
+    	text-indent:-99999px;
+    	&.site-logo {
+            background: url("../img/redircet-sprite.png") no-repeat 0 -1140px;
+            height: 33px;
+            margin: 37px 0;
+            width: 189px;
+        }
+        &.openid-logo {
+            float: left;
+            height: 130px;
+            width: 150px;
+        }
+    }
+}
+div.authorize-head h2 {
+	float:left;
+	padding:0 0 10px;
+}
+span.openid-to {
+    background: url("../img/redircet-sprite.png") no-repeat 0 -1273px;
+    height: 50px;
+    margin: 40px 26px 0 27px;
+    width: 50px;
+}
+div#colorbox #theme h1 {
+	width:120px;
+}
+#twitter-authorizecontainer #theme span.openid-logo {
+    background:url(../img/redircet-sprite.png) no-repeat 0 -684px;
+}
+#facebook-authorizecontainer #theme span.openid-logo {
+    background:url(../img/redircet-sprite.png) no-repeat 0 0px;
+}
+#yahoo_openid_message #theme span.openid-logo {
+    background:url(../img/redircet-sprite.png) no-repeat  0 -912px;
+}
+#google_openid_message #theme span.openid-logo {
+    background:url(../img/redircet-sprite.png) no-repeat 0 -228px;
+}
+#foursquare-authorizecontainer #theme span.openid-logo {
+    background:url("../img/redircet-sprite.png") no-repeat 13px -1437px;
+}
+div.openid-authorizecontainer span.openid-logo{
+    background:url("../img/redircet-sprite.png") no-repeat 0 -459px;
+}
+.loading {
+	width:20px;
+	height:20px;
+	text-indent:-99999em;
+	padding:0px !important;
+	margin:0px !important;
+	background:url(../img/loading.gif) no-repeat left top;
+	float:left;
+	margin: 0 0 0 20px;
+}
+div.message-content input{
+    border:none;
+    background:none;
+    width:auto;
+    padding:0px;
+    cursor:pointer;
+    color:#C65399;
+    &:hover{
+        color:#000;
+    }
+}
+/* http://www.positioniseverything.net/easyclearing.html */
+.clearfix {
+	display:inline-block;
+	display:block;
+	&:after{
+    	clear:both;
+    	content:'.';
+    	display:block;
+    	visibility:hidden;
+    	height:0;
+    }
+}
+* html .clearfix {
+	height:1%;
+}
+*+html .clearfix {
+	display: inline-block;
+}

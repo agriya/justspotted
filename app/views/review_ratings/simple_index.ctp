@@ -1,0 +1,1 @@
+<?php echo $this->element('review_rating_types-index', array('sighting_id' => $sighting_id, 'review_id' => $review_id, 'config' => 'site_element_cache_1_min'));?>
